@@ -5,7 +5,7 @@ def turn_count(board)
     if board[i] != " " || board[i] != "" || board[i] != nil
       count += 1
     end
-    i++
+    i +=1
   end
 return count
 end
