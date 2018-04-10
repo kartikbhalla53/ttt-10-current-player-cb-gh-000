@@ -1,6 +1,6 @@
 def turn_count(board)
   i = 0
-  count = 0
+  count = 1
   while i < 9
     if board[i] != " " || board[i] != "" || board[i] != nil
       count += 1
